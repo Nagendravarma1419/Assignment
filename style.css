@@ -1,0 +1,113 @@
+.main-container {
+    height: 100vh;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+.content-container {
+    display: flex;
+    align-content: center;
+    width: 80%;
+    height: 90%;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.top-container {
+    display: flex;
+    align-content: center;
+    width: 80%;
+    height: 20px;
+    margin-left: 20%;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-input {
+    border-radius: 5px;
+    box-shadow: 1px #EEEEEE;
+    border: 1px solid #EEEEEE;
+    width: 60vw;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.text-area-bottom {
+    border-radius: 5px;
+    box-shadow: 1px #EEEEEE;
+    border: 1px solid #EEEEEE;
+    width: 60vw;
+}
+
+.input-bottom-container {
+    border-radius: 5px;
+    box-shadow: 1px #EEEEEE;
+    border: 1px solid #EEEEEE;
+    width: 60vw;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.search-icon {
+    border-radius: 5px;
+    box-shadow: 1px #EEEEEE;
+    border: 1px solid #EEEEEE;
+    width: 60vw;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.text-area {
+    border-radius: 5px;
+    box-shadow: 1px #EEEEEE;
+    border: 1px solid #EEEEEE;
+    width: 60vw;
+}
+
+.plus-button {
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-left: 5px;
+}
+
+.save-btn-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.save-btn {
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    height: 28px;
+    font-size: 14px;
+    font-family: 'Roboto';
+
+}
+
+.list-container {
+    height: 100px;
+    width: 175px;
+    box-shadow: none;
+
+}
